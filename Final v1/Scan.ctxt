@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=barcode\ database
+comment0.target=Scan(java.lang.String,\ Database)
+comment1.params=
+comment1.target=void\ addToList()
+comment2.params=barcode
+comment2.target=java.lang.String\ checkItemByBarcode(java.lang.String)
+numComments=3
