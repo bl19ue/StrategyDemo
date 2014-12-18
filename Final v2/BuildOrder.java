@@ -25,8 +25,9 @@ public class BuildOrder
         item = new Scan("111232", database);
         item.addToList();
         
+        String credit_card = "1222122212221222";
         
-        Pay pay = new Pay();
-        pay.pay(item.getCost());
+        Subject pay = new Pay();
+        pay.pay(item.getCost(), credit_card);
     }
 }

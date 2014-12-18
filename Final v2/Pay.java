@@ -5,11 +5,15 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Pay
+public class Pay extends RealSubject implements Subject
 {
-    public void pay(double cost)
+    public void pay(double cost, String credit_card)
     {
-        System.out.println("Total :" + cost);
-        System.out.println("Thank you for the payment");
+        if(credit_card.equals("1222122212221222")){
+            super.pay(cost, credit_card);
+        }
+        else{
+            System.out.println("Unauthorized");
+        }
     }
 }
